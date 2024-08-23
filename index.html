@@ -46,8 +46,13 @@
                       
                        <div class="flex ">
                            <a class="btn btn-ghost text-xl flex items-center">
-                             <span class="bg-primary font-extralight  rounded-full">
-                                <i class="fa-solid fa-arrow-right -rotate-45 rounded-2xl bg- p-1 text-black"></i>
+                             <span
+                              class="bg-primary font-extralight  rounded-full p-1 -rotate-45">
+                                <svg
+                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                </svg>
+                                
                              </span>
                              <span class="text-2xl font-extrabold">
                                 Rinterio
@@ -67,17 +72,27 @@
                     </div>
                     <div class="navbar-end">
                       <div class="flex m-3 gap-3">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <svg
+                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                       </svg>
                       
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <svg
+                       xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
                       </svg>
                       </div>
                       <a class="btn bg-primary rounded-3xl text-xl font-extrabold hidden lg:flex">
                         Book Consult
-                        <i class="fa-solid fa-arrow-right -rotate-45 rounded-2xl bg-black p-2 text-white"></i>
+                        <!-- <i class="fa-solid fa-arrow-right -rotate-45 rounded-2xl bg-black p-2 text-white"></i> -->
+                        <span
+                        class="bg-black text-white font-extralight  rounded-full p-1 -rotate-45">
+                          <svg
+                           xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                          
+                       </span>
                          </a>
 
                          <div class="dropdown">
@@ -115,9 +130,16 @@
                             The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                         </p>
                         <div class="flex justify-center">
-                            <button class="text-xl font-bold bg-[#bef084] px-6 py-3 rounded-full">
-                                View Details
-                                <i class="fa-solid fa-arrow-right -rotate-45 rounded-2xl bg-[#87df23] p-2 text-black"></i>
+                            <button class="text-xl font-bold bg-[#bef084] px-6 py-3 rounded-full flex items-center gap-2">
+                                View Details  
+                                <span
+                                class="-rotate-45 bg-[#87df23] p-1 rounded-full">
+                                  <svg
+                                   xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 ">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                                  </svg>
+                                  
+                               </span>
                             </button>
                         </div>
                   </div>
@@ -128,37 +150,38 @@
         <div class="w-full bg-[#F4F4F4] py-24">
           <section class="w-11/12 mx-auto ">
             <!-- container 1 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-28">
-                <!-- content box -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-28">
+
+            <!-- content box -->
              <div class="">
                 <!-- content cards --> 
 
-                <!-- cards 1 -->
-               <div class="text-center md:text-start mb-7 relative">
+                <!-- cards title -->
+               <div class="text-center md:text-start relative">
                 <img class=" absolute -top-14 -left-12" src="./assets/Vector.png" alt="">
-                <button class="">
+                <button class="mb-4">
                     <p class="px-4 py-1 rounded-full bg-white">
                         <i class="fa-solid fa-arrow-right mr-2"></i> About Us</p>
                 </button>
                 
-                <h1 class="text-3xl md:text-5xl font-bold ">
+                <h1 class="text-3xl lg:text-5xl font-bold mb-6">
                     We design thoughtful, liveable spaces</h1>
-                <p class="md:w-3/4">
+                <p class="md:w-3/4 mb-6">
                     The barn house captivates with its blend of rustic charm and 
                     modern sophistication, featuring weathered wood, sleek metal accents.</p>
                </div>
 
-               <!-- cards 2 -->
-               <div class="flex  md:p-12 mb-10 border-2 rounded-3xl drop-shadow-lg bg-[#FFFFFF]">
-                <img class="h-11 md:h-full mr-6" src="./assets/commercial.png" alt="">
+               <!-- cards 1 -->
+               <div class="flex p-5 lg:p-6 mb-6 border-2 rounded-3xl drop-shadow-lg bg-[#FFFFFF]">
+                  <img class="h-11 md:h-full mr-6" src="./assets/commercial.png" alt="">
                <div>
-                <h3 class="text-2xl font-bold text-[#363958]">Commercial</h3>
-                <p class="md:w-2/3">The barn house captivates with its blend of rustic charm and modern.</p>
+                  <h3 class="text-2xl font-bold text-[#363958]">Commercial</h3>
+                  <p class="md:w-2/3">The barn house captivates with its blend of rustic charm and modern.</p>
                 </div>
                </div>
 
-               <!-- cards 3 -->
-               <div class="flex  md:p-12 mb-3 border-2 rounded-3xl drop-shadow-lg bg-[#FFFFFF]">
+               <!-- cards 2 -->
+               <div class="flex p-5 lg:p-6  border-2 rounded-3xl drop-shadow-lg bg-[#FFFFFF]">
                 <img class="h-11 md:h-full gap-72 mr-6" src="./assets/residential.png" alt="">
                <div>
                 <h3 class="text-2xl font-bold text-[#363958]">Commercial</h3>
@@ -170,7 +193,7 @@
 
              <!-- image box -->
               <div>
-                <img class="w-full" src="./assets/Rectangle.png" alt="">
+                <img class="" src="./assets/Rectangle.png" alt="">
               </div>
             </div>
 
@@ -302,7 +325,7 @@
                   <div class="col-span-3 md:flex p-6">
                     <img class="w-full md:w-[260px] " src="./assets/img1.png" alt="">
                     <div class="md:pl-6">
-                      <h2 class="text-2xl font-extrabold mb-4 ">Commercial</h2>
+                      <h2 class="text-2xl font-extrabold mt-6 mb-4 lg:mt-0">Commercial</h2>
                       <p class="text-xl font-medium md:w-3/4">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
 
                         <div class="flex items-center mt-6">
@@ -320,8 +343,8 @@
                   </div>
 
                   <!-- cards 2 -->
-                  <div class="col-span-1">
-                    <img class="md:py-6  md:w-full " src="./assets/img2.png" alt="">
+                  <div class="col-span-1 p-6 flex">
+                    <img class="md:py- " src="./assets/img2.png" alt="">
                   </div>
 
                 </div>
@@ -338,7 +361,7 @@
                       <img class="w-full md:w-[260px] md:h-[179.3px]" src="./assets/img4.png" alt="">
                       
                       <div class="md:pl-6">
-                        <h2 class="text-2xl font-extrabold mb-4">Commercial</h2>
+                        <h2 class="text-2xl font-extrabold mt-6 mb-4 lg:mt-0">Commercial</h2>
                         <p class="text-xl font-medium ">The barn house captivates with its blend of rustic charm and modern. </p>
   
                           <div class="flex items-center mt-6">
@@ -374,7 +397,7 @@
               <div>
                 <!-- content title -->
                 <div>
-                  <div class=" text-center">
+                  <div class=" text-center py-7">
                     <button class=" font-bold text-xl ">
                         <p class="px-4 py-1 rounded-full bg-[#ABEF5F33] ">
                             <i class="fa-solid fa-arrow-right mr-2"></i>Rinterio News</p>
@@ -390,14 +413,14 @@
                 <!--cards  -->
                 <div class="md:flex md:justify-evenly gap-6">
                   <!-- cards 1 -->
-                  <div class="card card-compact bg-base-100  shadow-xl p-6">
+                  <div class="card card-compact bg-base-100  shadow-xl p-6 mt-7">
                     <figure>
-                      <img class=""
+                      <img class="lg:w-full"
                         src="./assets/article1.png"
                         alt="Shoes" />
                     </figure>
                     <div class="py-3">
-                      <div class="flex gap-3">
+                      <div class="flex gap-3 my-3">
                         <p class="flex gap-2">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
@@ -431,14 +454,14 @@
                   </div>
   
                   <!-- cards 2 -->
-                  <div class="card card-compact bg-base-100 shadow-xl p-6">
+                  <div class="card card-compact bg-base-100 shadow-xl p-6 mt-7">
                     <figure>
-                      <img class=""
+                      <img class="lg:w-full"
                         src="./assets/article2.png"
                         alt="Shoes" />
                     </figure>
                     <div class="py-3">
-                      <div class="flex gap-3">
+                      <div class="flex gap-3 my-3">
                         <p class="flex gap-2">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
@@ -472,22 +495,24 @@
                   </div>
   
                   <!-- cards 3 -->
-                  <div class="card card-compact bg-base-100 shadow-xl p-6">
+                  <div class="card card-compact bg-base-100 shadow-xl p-6 mt-7">
                     <figure>
-                      <img class=""
+                      <img class="lg:w-full"
                         src="./assets/article3.png"
                         alt="Shoes" />
                     </figure>
                     <div class="py-3">
-                      <div class="flex gap-3">
+                      <div class="flex gap-5 my-3">
                         <p class="flex gap-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                          <svg
+                           xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 2.994v2.25m10.5-2.25v2.25m-14.252 13.5V7.491a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v11.251m-18 0a2.25 2.25 0 0 0 2.25 2.25h13.5a2.25 2.25 0 0 0 2.25-2.25m-18 0v-7.5a2.25 2.25 0 0 1 2.25-2.25h13.5a2.25 2.25 0 0 1 2.25 2.25v7.5m-6.75-6h2.25m-9 2.25h4.5m.002-2.25h.005v.006H12v-.006Zm-.001 4.5h.006v.006h-.006v-.005Zm-2.25.001h.005v.006H9.75v-.006Zm-2.25 0h.005v.005h-.006v-.005Zm6.75-2.247h.005v.005h-.005v-.005Zm0 2.247h.006v.006h-.006v-.006Zm2.25-2.248h.006V15H16.5v-.005Z" />
                           </svg>
                           July14, 2024
                         </p>
                         <p class="flex gap-2">
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                          <svg
+                           xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                           </svg>
                           By Admin
@@ -518,8 +543,9 @@
 
 
 
-        <!--  -->
-        <section style="background-image: url(assets/bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; " class="py-16" id="contact-us">
+        <!-- Let’s Discuss Next Project section start here -->
+        <section 
+        style="background-image: url(assets/bg.jpg); background-repeat: no-repeat; background-size: cover; background-position: center; " class="py-16" id="contact-us">
           <!-- svg button added here -->
           <button class="flex bg-[#acef5f58] p-2 gap-2 mx-auto rounded-3xl  ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -558,8 +584,18 @@
                   <textarea name="message" placeholder="Write your message here" class="w-full p-4 h-32 rounded-xl"></textarea>
               </div>
 
-              <div class="w-full bg-primary text-center p-3 rounded-3xl">
-                  <button class="font-extrabold">Send Mail <i class="ri-arrow-right-up-line bg-black text-white rounded-full"></i></button>
+              <div class="w-full bg-primary p-3 rounded-3xl">
+                  <button class="font-extrabold flex mx-auto items-center">Send Mail
+                    <span
+                    class="bg-black  font-extralight  rounded-full p-1 -rotate-45 ml-2">
+                      <svg
+                       xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-white ">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                      
+                   </span>
+                  </button>
+
               </div>
           </form>
 
